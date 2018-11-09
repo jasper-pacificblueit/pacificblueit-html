@@ -1,6 +1,29 @@
+.text-white {
+    color:#fff;
+}
+
+.center { 
+    text-align: center;
+}
+
+.font-size-p {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
 .main-navbar {
     transition: all 1s ease;
 }
+
 .nav-transparent { 
     background-color:rgba(255, 255, 255, 0.442);
     transition: all 1s ease;
@@ -8,3 +31,69 @@
     -o-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
 }
+
+#why-us {
+    background-color: #3e5372;
+    padding: 20px 0;
+    color:#fff;
+}
+
+#why-us .item {
+    padding: 20px 0;
+}
+
+#why-us img {
+    width: 250px;
+    margin-left: 500px;
+}
+
+#why-us .item-bg  {
+    background-image: url('../images/macbook.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#about-us {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;   
+}
+
+#about-us h3 {
+    padding: 30px 0;
+}
+
+#about-us p {
+    text-align: center;
+    color:white;
+    padding: 20px 0; 
+}
+
+#services {
+    background-color: #3e5372;
+    padding: 20px 0;
+    color:#fff;
+}
+
+#services h3 {
+    padding:20px 0;
+}
+
+#services p {
+    text-align: right;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+#services img {
+    width: 70px;
+    height: 70px;
+}
+
+#services .services-title {
+    text-align: right;
+}
+
