@@ -154,3 +154,11 @@
     background-size: cover;
     background-position: center center;
 }
+
+#main-footer {
+    height: 100px;
+    background-color: #222222;
+    text-align: center;
+    color:#fff;
+    padding-top: 50px;
+}
