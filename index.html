@@ -235,48 +235,55 @@
 
 <!-- Contact Us Section start -->
 <section id="contact-us">
-    
-    <section id="contact-us-form">
-        <form action="/#wpcf7-f1234-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-            <label for="fullname">Your Name(required)</label>
-            <input type="text" name="fullname"> <br>
+        <div class="row">
+            <div class="col-sm col-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <section id="contact-us-form">
+                                <h1 class="display-4">CONTACT US</h1>
+                                <form action="/#wpcf7-f1234-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <label for="fullname">Your Name(required)</label> <br>
+                                    <input type="text" name="fullname"> <br>
+                        
+                                    <label for="email">Your Email(required)</label><br>
+                                    <input type="email" name="email"> <br>
+                        
+                                    <label for="subject">Subject</label><br>
+                                    <input type="text" name="subject"> <br>
+                        
+                                    <label for="message">Your Message</label><br>
+                                    <textarea name="message" rows="5"></textarea> <br> <br>
 
-            <label for="email">Your Email(required)</label>
-            <input type="email" name="email"> <br>
-
-            <label for="subject">Subject</label>
-            <input type="text" name="subject"> <br>
-
-            <label for="message">Your Message</label>
-            <textarea name="message" rows="3"></textarea> <br>
-            
-            <input type="submit" value="SEND">
-        </form>
-    </section>
-    
-    <section id="contact-us-details">
-        <div>
-            <i class="fas fa-phone fa-4x"></i>
-            +63 (052) 735 201
+                                    <input type="submit" value="SEND" class="btn btn-block btn-lg btn-success">
+                                </form>
+                            </section>     
+                        </div>
+                        <div class="col-sm">
+                            <section id="contact-us-details">
+                                <div>
+                                    <i class="fas fa-phone fa-2x"></i>
+                                    +63 (052) 735 201
+                                </div>
+                                <div>
+                                    <i class="fas fa-envelope fa-2x"></i>
+                                    info@pacificblueit.com
+                                </div>
+                                <div>
+                                    <i class="fas fa-globe-asia fa-2x"></i>
+                                    http://pacificblueit.com/
+                                </div>
+                                <div>
+                                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                                    Block 7, Puro, Legazpi City, Albay
+                                </div>
+                            </section>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+            <div class="col-sm col-6" id="google-map"> </div>
         </div>
-        <div>
-            <i class="fas fa-envelope fa-4x"></i>
-            info@pacificblueit.com
-        </div>
-        <div>
-            <i class="fas fa-globe-asia fa-4x"></i>
-            http://pacificblueit.com/
-        </div>
-        <div>
-            <i class="fas fa-map-marker-alt fa-4x"></i>
-            Block 7, Puro, Legazpi City, Albay
-        </div>
-        
-    </section>
-
-    <section id="google-map">
-
-    </section>
 </section>
 <!-- Contact Us Section   end -->
 

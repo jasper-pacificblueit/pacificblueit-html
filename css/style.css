@@ -97,3 +97,60 @@
     text-align: right;
 }
 
+#contact-us {
+    min-height: 100vh;
+    background-color: #3e5372;
+    color: #fff;
+    background-image: url("../images/buildings.jpeg");
+    background-size:50% 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#contact-us-form form label {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#contact-us-form input[type=text],input[type=email] { 
+    width: 100%;
+    margin: 20px 0;
+    background-color: transparent;
+    height: 50px;
+    color:white;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#contact-us-form textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color:white;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+#contact-us-details {
+    margin-top: 150px;
+    font-size: 1.2rem;
+}
+
+#contact-us-details div {
+    padding: 30px 0;
+    border-bottom: 1px solid #fff;
+}
+
+#contact-us-details div i { 
+    padding-right: 10px;
+}
+
+#google-map {
+    width: 100%;
+    background-image: url("../images/pacific-blue-map.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
